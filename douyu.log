@@ -1,0 +1,728 @@
+2018-08-29 18:28:44 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: Douyu)
+2018-08-29 18:28:44 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Douyu.spiders', 'CONCURRENT_REQUESTS': 100, 'SPIDER_MODULES': ['Douyu.spiders'], 'BOT_NAME': 'Douyu', 'USER_AGENT': 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1.4', 'LOG_FILE': 'douyu.log'}
+2018-08-29 18:28:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-08-29 18:28:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-08-29 18:28:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-08-29 18:28:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['Douyu.pipelines.DouyuImagesPipeline']
+2018-08-29 18:28:44 [scrapy.core.engine] INFO: Spider opened
+2018-08-29 18:28:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-08-29 18:28:44 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-08-29 18:28:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0> (referer: None)
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/17/5267713_20180817195234_big.jpg> referred in <None>
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/09/5431349_20180809135937_big.jpg> referred in <None>
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/18/5224844_20180818192829_big.jpg> referred in <None>
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/22/5118148_20180822120146_big.jpg> referred in <None>
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5357\u5145\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/17/5267713_20180817195234_big.jpg',
+ 'nick_name': u'\u5468\u6dfc\u6dfcMoon',
+ 'room_link': u'http://www.douyu.com/5267713'}
+2018-08-29 18:28:44 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:44 [root] INFO: hello world
+2018-08-29 18:28:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5e38\u5fb7\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/09/5431349_20180809135937_big.jpg',
+ 'nick_name': u'\u4f60\u7684\u5fc3\u7476\u513f',
+ 'room_link': u'http://www.douyu.com/5431349'}
+2018-08-29 18:28:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5357\u5145\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/18/5224844_20180818192829_big.jpg',
+ 'nick_name': u'\u840c\u840c\u840c\u5927\u4ed9\u513f',
+ 'room_link': u'http://www.douyu.com/5224844'}
+2018-08-29 18:28:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5409\u6797\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/22/5118148_20180822120146_big.jpg',
+ 'nick_name': u'\u6c34\u6c34\u6c34\u4ed9\u513f',
+ 'room_link': u'http://www.douyu.com/5118148'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/5342968_1824.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/5342968_1824.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/333_1827.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/333_1827.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/28/5d03da8f92c82dd5a386b4586235396e_small.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/28/5d03da8f92c82dd5a386b4586235396e_small.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/5342968_1824.jpg',
+ 'nick_name': u'\u5c0f\u749f\u513fbaby',
+ 'room_link': u'http://www.douyu.com/5342968'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/06/4403598_20180806160752_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/06/4403598_20180806160752_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/333_1827.jpg',
+ 'nick_name': u'B\u603b001',
+ 'room_link': u'http://www.douyu.com/333'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/95741_1827.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/95741_1827.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/28/2408467_20180828162500_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/28/2408467_20180828162500_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/03/31/4644510_20180331090538_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/03/31/4644510_20180331090538_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/28/5d03da8f92c82dd5a386b4586235396e_small.jpg',
+ 'nick_name': u'\u5927\u6728\u5934CL',
+ 'room_link': u'http://www.douyu.com/2002312'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/11/963308_20180711111911_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/11/963308_20180711111911_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=100> (referer: http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0)
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/06/4403598_20180806160752_big.jpg',
+ 'nick_name': u'\u674e\u745e\u6c50\u4e03\u54e5',
+ 'room_link': u'http://www.douyu.com/4403598'}
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/95741_1827.jpg',
+ 'nick_name': u'\u9f8d\u9a91\u58eb\u4e36\u6211\u662f\u4f20\u5947',
+ 'room_link': u'http://www.douyu.com/95741'}
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/28/2408467_20180828162500_big.jpg',
+ 'nick_name': u'\u597d\u50cf\u4e38\u5b50',
+ 'room_link': u'http://www.douyu.com/2408467'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/4255927_20180814072427_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/4255927_20180814072427_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u7ee5\u5316\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/03/31/4644510_20180331090538_big.jpg',
+ 'nick_name': u'\u4e1c\u5317\u5c11\u5e74\u54df',
+ 'room_link': u'http://www.douyu.com/4644510'}
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u8d35\u9633\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/11/963308_20180711111911_big.jpg',
+ 'nick_name': u'Carol\u53c8\u9752',
+ 'room_link': u'http://www.douyu.com/963308'}
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4417688_20180829153712_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4417688_20180829153712_big.jpg> referred in <None>
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/1047629_1827.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/1047629_1827.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/5250584_1824.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/5250584_1824.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/04/08/1136526_20180408150537_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/04/08/1136526_20180408150537_big.jpg> referred in <None>
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u682a\u6d32\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/4255927_20180814072427_big.jpg',
+ 'nick_name': u'\u5c0f\u5ae3\u513fAngel',
+ 'room_link': u'http://www.douyu.com/4255927'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/1970403_20180829175514_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/1970403_20180829175514_big.jpg> referred in <None>
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6210\u90fd\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4417688_20180829153712_big.jpg',
+ 'nick_name': u'\u5341\u56dbSSSS',
+ 'room_link': u'http://www.douyu.com/4417688'}
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u4e09\u4e9a\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/1047629_1827.jpg',
+ 'nick_name': u'Piano\u5c0f\u8a69',
+ 'room_link': u'http://www.douyu.com/1047629'}
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [douyu2] INFO: ----hello world-----
+2018-08-29 18:28:45 [root] INFO: hello world
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/5250584_1824.jpg',
+ 'nick_name': u'\u662f\u53ea\u52aa\u529b\u7684\u5c0f\u5495',
+ 'room_link': u'http://www.douyu.com/5250584'}
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u53a6\u95e8\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/04/08/1136526_20180408150537_big.jpg',
+ 'nick_name': u'Grace\u5c0f\u661f\u661f',
+ 'room_link': u'http://www.douyu.com/1136526'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/09/1272264_20180809114838_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/09/1272264_20180809114838_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5317\u4eac\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/1970403_20180829175514_big.jpg',
+ 'nick_name': u'\u5c0f\u679c\u6c41hyr',
+ 'room_link': u'http://www.douyu.com/1970403'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/29/5ac95830562356bdac966de5d3f1f640_small.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/29/5ac95830562356bdac966de5d3f1f640_small.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/09/1272264_20180809114838_big.jpg',
+ 'nick_name': u'\u83c1\u83c1Krystal',
+ 'room_link': u'http://www.douyu.com/1272264'}
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/01/04/3995511_20180104133445_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/01/04/3995511_20180104133445_big.jpg> referred in <None>
+2018-08-29 18:28:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/25/4843138_20180825142457_big.jpg> (referer: None)
+2018-08-29 18:28:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/25/4843138_20180825142457_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4905916_20180625020003_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4905916_20180625020003_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/asrpic/180829/547003_1827.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/asrpic/180829/547003_1827.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u957f\u6c99\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/29/5ac95830562356bdac966de5d3f1f640_small.jpg',
+ 'nick_name': u'\u5c0f\u9ebb\u96c0\u5d3d\u5d3d',
+ 'room_link': u'http://www.douyu.com/4907825'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5354480_20180829161432_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5354480_20180829161432_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4730395_20180829153721_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4730395_20180829153721_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u91cd\u5e86\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/01/04/3995511_20180104133445_big.jpg',
+ 'nick_name': u'\u840c\u5b9d\u5b9d\u597dQ',
+ 'room_link': u'http://www.douyu.com/3995511'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u957f\u6625\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/25/4843138_20180825142457_big.jpg',
+ 'nick_name': u'\u859b\u6d01\u6d01Zz',
+ 'room_link': u'http://www.douyu.com/4843138'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/02/03/4095665_20180203101715_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/02/03/4095665_20180203101715_big.jpg> referred in <None>
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: STREAM IHDR 16 13
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: STREAM sBIT 41 3
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: sBIT 41 3 (unknown)
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: STREAM IDAT 56 8192
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4905916_20180625020003_big.jpg',
+ 'nick_name': u'\u9ece\u4e09\u4e09\u5c81',
+ 'room_link': u'http://www.douyu.com/4905916'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/asrpic/180829/547003_1827.jpg',
+ 'nick_name': u'Stu\u5c0f\u8d85\u4eba',
+ 'room_link': u'http://www.douyu.com/547003'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5317\u4eac\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5354480_20180829161432_big.jpg',
+ 'nick_name': u'\u5361\u65af\u5440',
+ 'room_link': u'http://www.douyu.com/5354480'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6e29\u5dde\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/4730395_20180829153721_big.jpg',
+ 'nick_name': u'\u4e00\u51e1\u51e1\u51e1\u51e1\u51e1\u5440',
+ 'room_link': u'http://www.douyu.com/4730395'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6c88\u9633\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/02/03/4095665_20180203101715_big.jpg',
+ 'nick_name': u'\u6696\u7537\u4e8c\u53d4',
+ 'room_link': u'http://www.douyu.com/4095665'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/12/2978708_20180812122625_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/12/2978708_20180812122625_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/10/4285302_20180810013644_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/10/4285302_20180810013644_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/30/4719158_20180730140540_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/30/4719158_20180730140540_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/21/3587308_20180821163747_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/21/3587308_20180821163747_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/12/2978708_20180812122625_big.jpg',
+ 'nick_name': u'\u7b71\u6cab\u6cab\u7231\u5403\u9c7c',
+ 'room_link': u'http://www.douyu.com/2978708'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/26/1931736_20180826054457_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/26/1931736_20180826054457_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4038291_20180625164704_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4038291_20180625164704_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/10/4285302_20180810013644_big.jpg',
+ 'nick_name': u'\u5927\u7545\u7545\u7545\u7545\u7545\u7545\u7545',
+ 'room_link': u'http://www.douyu.com/4285302'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6210\u90fd\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/30/4719158_20180730140540_big.jpg',
+ 'nick_name': u'\u5c0f\u67f3\u5ca9dn',
+ 'room_link': u'http://www.douyu.com/4719158'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6df1\u5733\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/21/3587308_20180821163747_big.jpg',
+ 'nick_name': u'\u7f8e\u5c11\u5973\u6676\u6676o',
+ 'room_link': u'http://www.douyu.com/3587308'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u957f\u6c99\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/26/1931736_20180826054457_big.jpg',
+ 'nick_name': u'\u58a9\u58a9\u5927\u4ed9',
+ 'room_link': u'http://www.douyu.com/1931736'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/27/3849501_20180627144123_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/27/3849501_20180627144123_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u4e34\u6c82\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/25/4038291_20180625164704_big.jpg',
+ 'nick_name': u'\u9752\u971e\u4ed9\u5b50221',
+ 'room_link': u'http://www.douyu.com/4038291'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/31/5072861_20180731182338_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/31/5072861_20180731182338_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/07/23/28bbc630e65f39a0c991d708f9d5f5c0_small.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/07/23/28bbc630e65f39a0c991d708f9d5f5c0_small.jpg> referred in <None>
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: STREAM IHDR 16 13
+2018-08-29 18:28:46 [PIL.PngImagePlugin] DEBUG: STREAM IDAT 41 76742
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u6b66\u6c49\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/06/27/3849501_20180627144123_big.jpg',
+ 'nick_name': u'\u662f\u798e\u798e\u5440',
+ 'room_link': u'http://www.douyu.com/3849501'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u957f\u6c99\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/31/5072861_20180731182338_big.jpg',
+ 'nick_name': u'\u826f\u6b6a\u6b6a\u4e36',
+ 'room_link': u'http://www.douyu.com/5072861'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u897f\u5b89\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/roomCover/2018/07/23/28bbc630e65f39a0c991d708f9d5f5c0_small.jpg',
+ 'nick_name': u'o\u537f\u6d45\u6d45o',
+ 'room_link': u'http://www.douyu.com/5034474'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/22/5255495_20180822215753_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/22/5255495_20180822215753_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/5248683_20180814171356_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/5248683_20180814171356_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5251717_20180824224316_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5251717_20180824224316_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5072337_20180824165339_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5072337_20180824165339_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/06/2271711_20180706210035_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/06/2271711_20180706210035_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-08-29 18:28:46 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5317\u4eac\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/22/5255495_20180822215753_big.jpg',
+ 'nick_name': u'E\u59d0\u59d0',
+ 'room_link': u'http://www.douyu.com/5255495'}
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5481502_20180829155344_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5481502_20180829155344_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5003051_20180829163904_big.jpg> (referer: None)
+2018-08-29 18:28:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/29/5003051_20180829163904_big.jpg> referred in <None>
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/14/5248683_20180814171356_big.jpg',
+ 'nick_name': u'\u56db\u53f6\u8349\u8393\u5473',
+ 'room_link': u'http://www.douyu.com/5248683'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u5357\u4eac\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5251717_20180824224316_big.jpg',
+ 'nick_name': u'\u597d\u53ef\u7231\u7684\u5c0f\u4e03\u5440',
+ 'room_link': u'http://www.douyu.com/5251717'}
+2018-08-29 18:28:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u897f\u5b89\u5e02',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/08/24/5072337_20180824165339_big.jpg',
+ 'nick_name': u'\u5c0f\u751c\u5fc3Yee',
+ 'room_link': u'http://www.douyu.com/5072337'}
+2018-08-29 18:28:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=100&offset=0>
+{'anchor_city': u'\u9c7c\u5858',
+ 'image_src': u'https://rpic.douyucdn.cn/live-cover/appCovers/2018/07/06/2271711_20180706210035_big.jpg',
+ 'nick_name': u'\u5e7c\u9f7f\u61f5\u9a9a\u5c0f\u5b89\u59ae',
+ 'room_link': u'http://www.douyu.com/2271711'}
+2018-08-29 18:28:47 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-08-29 18:28:47 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/08/3b0d945b36ccf100e634e094301040d3_small.jpg. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-08-29 18:28:47 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://rpic.douyucdn.cn/live-cover/roomCover/2018/08/08/3b0d945b36ccf100e634e094301040d3_small.jpg> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
